@@ -27,6 +27,7 @@ terraform state list
 	random_string.string
 ```
 We change the resource type "random_string" with name "string" to be accessed as module.
+```
 cd ../seperated_project
 terraform init ###not needed if the first code was changed onplace 
 terraform state list
