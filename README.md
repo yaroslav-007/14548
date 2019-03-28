@@ -34,7 +34,8 @@ terraform state list
 	null_resource.string
 	random_string.string <- resource that we want to move
 
-terraform state mv random_string.string module.random_string ###terrafrom init mv <resource-type>.<name-of-resource> module.<name-of-module>)
+terraform state mv random_string.string module.random_string
+###terrafrom init mv <resource-type>.<name-of-resource> module.<name-of-module>)
 terraform state list
 	module.random_string.random_string.string
 	null_resource.string
